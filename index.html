@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema de Pago Transporte</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- 🟢 Pantalla de inicio -->
+    <section id="pantalla-inicio" class="pantalla activa">
+      <h1 class="mensaje-bienvenida">Bienvenido</h1>
+      
+      <!-- Botón para manejar la tarjeta SUBE / NFC -->
+      <button id="btn-pago-sube" aria-label="Acerque su tarjeta SUBE">Acerque su tarjeta SUBE, tarjeta NFC o dispositivo NFC</button>
+
+      <!-- Botón lateral "Pagar con QR" -->
+      <button id="btn-qr" class="boton-qr" aria-label="Pagar con QR">Pagar con QR</button>
+
+      <div class="inferior">
+        <button id="btn-saldo" aria-label="Consultar saldo SUBE">Consultar saldo SUBE</button>
+        <button id="btn-recarga" aria-label="Activar recarga SUBE">Activar recarga SUBE</button>
+      </div>
+    </section>
+
+    <!-- 🟡 Pantalla de QR -->
+    <section id="pantalla-qr" class="pantalla">
+      <h2>Escaneá el código QR</h2>
+      <button id="btn-qr-pago" class="qr-fake">[Código QR generado]</button>
+      <p id="qr-mensaje"></p> <!-- Mensaje de éxito o saldo insuficiente -->
+      <button id="btn-recargar-qr" style="display: none;" aria-label="Recargar saldo">¿Desea recargar?</button> 
+      <button class="volver" aria-label="Volver al inicio">Volver</button>
+    </section>
+
+    <!-- 🔵 Pantalla de saldo -->
+    <section id="pantalla-saldo" class="pantalla">
+      <h2>Saldo SUBE</h2>
+      <p>Tu saldo es: <span id="saldo-numero">$430,50</span></p>
+      <button class="volver" aria-label="Volver al inicio">Volver</button>
+    </section>
+
+    <!-- 🔴 Pantalla de recarga -->
+    <section id="pantalla-recarga" class="pantalla">
+      <h2>Recarga SUBE</h2>
+    
+      <button id="btn-carga-pendiente">Carga pendiente</button>
+      <button id="btn-sin-carga-pendiente">Sin carga pendiente</button>
+    
+      <p id="mensaje-recarga"></p> <!-- Mensaje que muestra resultado de la acción -->
+    
+      <button class="volver" aria-label="Volver al inicio">Volver</button>
+    </section>
+
+    <!-- 🟢 Pantalla de pago SUBE -->
+    <section id="pantalla-pago-sube" class="pantalla">
+      <h2>Pagar con tarjeta SUBE</h2>
+      <button id="btn-subir-pago" aria-label="Realizar pago SUBE">SUBE</button>
+      <p id="mensaje-saldo"></p>
+      <button id="btn-recargar" aria-label="Recargar saldo" style="display: none;">¿Desea recargar?</button>
+      <button class="volver" aria-label="Volver al inicio">Volver</button>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
