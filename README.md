@@ -27,7 +27,7 @@ Desarrollar la interfaz de una **terminal de cobro para transporte público**, o
   ├── Documentación del Sistema de Pago de Transporte.docx
   ├── Relevamiento Técnico Funcional.docx
   ├── Documentación de Pruebas.pdf
-  ├── Referencia - Cronogramas - Seguimiento.pdf
+  ├── Cronogramas - Seguimiento.xlsx
 ```
 
 ## Integrantes del equipo
