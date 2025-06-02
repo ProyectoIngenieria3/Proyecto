@@ -44,7 +44,7 @@ Desarrollar la interfaz de una **terminal de cobro para transporte público**, o
 
 - [Charter del proyecto](https://docs.google.com/document/d/18xsYqWKTOB3goMPmUV8r9PHNa04FtWqkaPLgAKxRUzI/edit?tab=t.0)  
 - [WBS (Estructura de trabajo)](https://drive.google.com/file/d/1bbp48Ros1RCt0WY4gNzbn88Gl-0Nxu-q/view)  
-- [Tablero de Trello (gestión ágil)](https://trello.com/b/kbAsei1i/ingenieria-de-software-3)  
+- [Tablero de Trello (Link Invitación)]([https://trello.com/b/kbAsei1i/ingenieria-de-software-3](https://trello.com/invite/b/67eb28d242d67bf7c629025d/ATTI79e4087a06aee11280b5a33581c86e5590FB1357/ingenieria-de-software-3))  
 
 ## Documentación del proyecto
 
